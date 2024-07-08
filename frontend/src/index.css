@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+div.signup-form{
+  width: 350px;
+  margin:0 auto;
+  margin-top:1em ;
+}
+div.signup-form h1{
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+div.signup-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+div.signup-form form input{
+  padding: 1em;
+}
+div.signup-form form label{
+  font-size: 1.2em;
+}
+
+div.signup-form form .btn-container{
+  display: flex;
+  gap: 0.2em;
+}
+div.login-form{
+  width: 350px;
+  margin:0 auto;
+  margin-top:1em ;
+}
+div.login-form h1{
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+div.login-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+div.login-form form input{
+  padding: 1em;
+}
+div.login-form form label{
+  font-size: 1.2em;
+}
+.buttons{
+  display: flex;
+  gap: 0.25em;
+}
+.buttons button{
+  flex: 1;
+  padding: 10px 12px;
+  background-color: none;
+  font-size: large;
+}
+
+nav{
+  height: 80px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a{
+  padding: 10px 12px;
+  text-decoration: none;
+}
+nav a.active{
+  font-weight: bolder;
+}
